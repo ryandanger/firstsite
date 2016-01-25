@@ -6,6 +6,11 @@
 -->
 <html>
 	<head>
+		<script type="text/javascript">
+		var host = "yoursite.com";
+		if ((host == window.location.host) && (window.location.protocol != "https:"))
+        window.location.protocol = "https";
+		</script>
 		<title>The Danger Space</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -13,6 +18,7 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<link rel="canonical" href=" { { site.url } }{ { page.url } }" />
 
 		<SCRIPT LANGUAGE="JAVASCRIPT">
 		<--
@@ -94,7 +100,7 @@
 							<article id="contact" class="panel">
 								<header>
 									<h2>Contact Me</h2>
-									<p>or feel free to check out the <a href="http://thedanger.space/comments/">comments page.</a href></p>
+									<p>or feel free to check out the <a href="//thedanger.space/comments/">comments page.</a href></p>
 								</header>
 								<form action="http://formspree.io/ryanjf97@gmail.com" method="post">
 									<div>
@@ -124,7 +130,7 @@
 							<article id="plex" class="panel">
 								<header>
 									<h2>Plex server</h2>
-									<p>Head <a href="http://thedanger.space/plex">here</a href> to get a set-up guide on connecting to a Plex server.
+									<p>Head <a href="//thedanger.space/plex">here</a href> to get a set-up guide on connecting to a Plex server.
 								</header>
 							</article>
 						-->
