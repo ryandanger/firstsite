@@ -783,6 +783,11 @@
 		display: block;
 		margin: auto;
 	}
+	
+	#music-centre{
+		display: block;
+		margin: auto;
+	}
 
 	input, textarea, select {
 		font-family: 'Source Sans Pro', sans-serif;
