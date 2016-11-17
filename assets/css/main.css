@@ -778,6 +778,11 @@
 		margin: 0 auto;
 		background-color: #777;
 		}
+	
+	music-centre{
+		display: block;
+		margin: auto;
+	}
 
 	input, textarea, select {
 		font-family: 'Source Sans Pro', sans-serif;
