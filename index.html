@@ -39,9 +39,38 @@
 
 		//-->
 		</SCRIPT>
+		
+		<SCRIPT LANGUAGE="JAVASCRIPT">
+		$("#splash").jqxWindow({
+			width: '500px',
+			height: '672px',
+			resizable: false,
+			showCloseButton: true,
+			showAnimationDuration: 3500,
+			closeAnimationDuration: 1000,
+			isModal: false,
+			autoOpen: false
+			});
+		setTimeout(function() {
+		$('#splash').jqxWindow('open');
+			}, 50);
+			setTimeout(function() {
+			$('#splash').jqxWindow('close');
+			}, 300000);
+		</SCRIPT>
+
 		<body background="bg1.jpg">
 	</head>
 	<body>
+		
+		<!-- Splash -->
+		<div style="background: transparent; border: none" id='splash'>
+			<div style="background: transparent">
+				<iframe style="border: 0; width: 500px; height: 672px;" src="https://bandcamp.com/EmbeddedPlayer/album=2446301979/size=large/bgcol=ffffff/linkcol=63b2cc/transparent=true/" seamless><a href="http://ryandanger.bandcamp.com/album/concept-of-time">Concept Of Time by ryan danger</a></iframe>
+			</div>
+			<div style="background: transparent">
+			</div>
+		</div>
 
 		<!-- Wrapper-->
 			<div id="wrapper">
